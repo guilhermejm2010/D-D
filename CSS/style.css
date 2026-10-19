@@ -1,0 +1,211 @@
+/*---------------------
+RESET CSS
+---------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo Black", sans-serif;
+}
+#dnd-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+#main-text {
+    color: #E6B84A;
+    font-size: 30px;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#dnd-main {
+    color: #E6B84A;
+    font-size: 30px;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dnd-sub{
+    color: #E6B84A;
+    font-size: 13px;
+    width: 600px;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin: 0 auto;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: rgba(204, 196, 196, 0.2);
+    
+    
+}
+
+#sub-text {
+    color: #E6B84A;
+    font-size: 13px;
+    width: 100%;
+    height: 0vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body {
+
+    color: rgb(23, 23, 23);
+    background-color: #000;
+    line-height: 1.8;
+
+
+}
+
+.main{
+   
+}
+
+main{
+    background-color: rgba(14, 14, 14, 0.93);
+    width: 65%;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.Fundo{
+    background-image: url("../IMG/image.png");
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+    position: fixed;
+
+}
+
+.espaco 
+{
+    width: 100%;
+    height: 200px;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+header.scrolled {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+
+
+}
+
+#e5 {
+    background-color: transparent;
+    color: red;
+    border-radius: 100px;
+    margin-left: -10px;
+
+}
+
+li {
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 18px;
+    width: 100px;
+    transition: background-color 0.3s ease;
+
+}
+
+li.scrolled {
+    background-color: #0D0A09;
+}
+
+li:hover {
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color: rgb(253, 202, 102);
+    width: 400px;
+    height: 40px;
+    border-radius: 12px;
+    border-style: none;
+    transition: background-color 0.3s ease;
+    transition: opacity 0.5s ease;
+}
+
+
+button:hover {
+    opacity: 0.7;
+}
+
+#button-main {
+
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -160px;
+}
+
+#img-logo {
+    width: 150px;
+    height: 75px;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 12px;
+}
+
+#img-logo.scrolled {
+
+    background-color: rgba(0, 0, 0, 1);
+
+}
